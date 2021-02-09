@@ -146,7 +146,7 @@ SPIClass gSPI2(
         Catena::PIN_SPI2_SCK
         );
 
-MCCI_Sigfox Sigfox( "01415DF1", "45949039C97F79F5", "73AF0E3F549A3E60858FFB05C83304F3", REGION_RC2, 0x8080008, false);
+MCCI_Sigfox Sigfox( "<4-byte_DevID>", "8-byte_PAC", "<16-byte_Key>", REGION_RC2, 0x8080008, false);
 
 //   The flash
 Catena_Mx25v8035f gFlash;
